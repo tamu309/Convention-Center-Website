@@ -1,0 +1,14 @@
+/* Responsiv for mobile */
+
+@media (max-width: 576) {
+    .carousel-item img {
+      width: auto; /* Allow the image to be its natural width */
+      height: 70vh; /* Set the height to 100% of the viewport height */
+      object-fit: cover; /* Crop the image to cover the container while maintaining its aspect ratio */
+    }
+
+    .carousel-caption {
+      width: 100%; 
+      /* Make the caption full width */
+    }
+  }
